@@ -109,3 +109,21 @@ footer {
 footer small {
   font-weight: 200;
 }
+
+.apple-link {
+  width: 20%;
+}
+
+.google-link {
+  width: 21.5%;
+}
+
+@media all and (max-width: 420px) {
+  .apple-link {
+    width: 40%;
+  }
+
+  .google-link {
+    width: 45%;
+  }
+}
